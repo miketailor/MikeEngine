@@ -1,0 +1,50 @@
+# depslib dependency file v1.0
+1534448177 source:c:\users\mike\documents\github\mikeengine\engine.cpp
+	"Engine.h"
+	<iostream>
+
+1534483178 c:\users\mike\documents\github\mikeengine\engine.h
+
+1534483133 source:c:\users\mike\documents\github\mikeengine\main.cpp
+	<iostream>
+	"graphics/window.h"
+
+1534482802 source:c:\users\mike\documents\github\mikeengine\graphics\window.cpp
+	"window.h"
+	<iostream>
+
+1531804468 c:\users\mike\documents\github\mikeengine\graphics\window.h
+	<string>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+
+1501530382 c:\dev libs\glew-2.1.0\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1471521160 c:\dev libs\glfw-3.2.1.bin.win32\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+

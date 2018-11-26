@@ -12,8 +12,24 @@
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
+					<Add option="-std=c++14" />
+					<Add option="-m32" />
 					<Add option="-g" />
+					<Add option="-DGLEW_STATIC" />
+					<Add directory="C:/dev libs/glew-2.1.0/include" />
+					<Add directory="C:/dev libs/glfw-3.2.1.bin.WIN32/include" />
 				</Compiler>
+				<Linker>
+					<Add option="-m32" />
+					<Add library="glfw3" />
+					<Add library="glew32s" />
+					<Add library="opengl32" />
+					<Add library="kernel32" />
+					<Add library="user32" />
+					<Add library="gdi32" />
+					<Add directory="C:/dev libs/glew-2.1.0/lib/Release/Win32" />
+					<Add directory="C:/dev libs/glfw-3.2.1.bin.WIN32/lib-mingw" />
+				</Linker>
 			</Target>
 			<Target title="Release">
 				<Option output="bin/Release/MikeEngine" prefix_auto="1" extension_auto="1" />
@@ -30,7 +46,12 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add option="-DGLEW_STATIC" />
 		</Compiler>
+		<Unit filename="Engine.cpp" />
+		<Unit filename="Engine.h" />
+		<Unit filename="graphics/window.cpp" />
+		<Unit filename="graphics/window.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
